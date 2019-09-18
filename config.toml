@@ -14,6 +14,9 @@ googleAnalytics = "UA-110068374-1" # optional
 [permalinks]
   post = "/:year/:month/:slug/"
 
+[outputs]
+  home = ["HTML", "JSON"]
+
 [params]
   description = "nuovotaka.comの中の人のブログ" # optional
   accent_color = "#FF5722"
