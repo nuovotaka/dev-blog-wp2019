@@ -1,6 +1,6 @@
 ### Hugo Build Works
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7fc0e9e5-6534-44e8-add6-7e8d92e61229/deploy-status)](https://app.netlify.com/sites/keen-roentgen-a388da/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b1c4628-1acf-45b8-8d8b-4a42b230cdf4/deploy-status)](https://app.netlify.com/sites/festive-yonath-368f8e/deploys)
 
 # Twenty Nineteen
 [twentynineteen](http://themes.gohugo.io/twentynineteen-hugo/)
