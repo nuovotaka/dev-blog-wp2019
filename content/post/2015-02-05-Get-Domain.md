@@ -8,7 +8,7 @@ title = "Loto7当たったのでドメイン取ってみた"
 
 +++
 
-## Loto7 (ロト７)
+### Loto7 (ロト７)
 正式には「数字選択式宝くじ」と言うらしい。
 発売元は、国ではなく{{% external_link href="http://www.takarakuji-official.jp/educate/about/proceeds/" text="宝くじの収益金の使途" %}}全国の都道府県および政令指定都市で受託がみずほ銀行が行っている。
 

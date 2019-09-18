@@ -8,7 +8,7 @@ title = "CSS Text Decorationのインライン要素"
 
 +++
 
-## shortcode で作成したリンクiconの下線を消したい
+### shortcode で作成したリンクiconの下線を消したい
 
 今回は**``display: inline-block;``**で問題解決できました。
 
@@ -35,17 +35,17 @@ title = "CSS Text Decorationのインライン要素"
 	content: "\e90f";
 	display: inline-block;	/* ココがpoint! */
 	text-decoration: none;
-	opacity: 0.7;	
+	opacity: 0.7;
 }
 ```
 
 一応エレメントのおさらい
 
-### Inline elements
+#### Inline elements
 i, code, strong, a, br, map, script, span, sub, sup, button, input, label, select など
 これらの要素がインライン要素になります。
 
-### Block-level elements
+#### Block-level elements
 h1 - h6, p, ol, ul, div, hr, nav, article, aside, header など
 これらの要素がブロック要素になります。
 

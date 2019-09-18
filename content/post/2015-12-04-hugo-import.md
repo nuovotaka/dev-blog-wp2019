@@ -8,7 +8,7 @@ title = "Hugo import jekyll コマンドが追加"
 
 +++
 
-## Hugoでjekyllのコンテンツをインポートできるようになりました
+### Hugoでjekyllのコンテンツをインポートできるようになりました
 自分が試したのは``jekyll-now``の方ですが、記事をインポートできました。
 使い方は{{% external_link href="https://gohugo.io/commands/hugo_import_jekyll/" text="Hugo Cmd Reference - hugo import jekyll" %}}をご覧ください。
 一応コマンドを。
@@ -29,8 +29,8 @@ web上で利用されている方は、zipファイルなどでファイルを�
 
 ``jekyll-now``より自由度が増しかつ高速生成なのでイライラもありません。
 精神衛生上にもとっても良い**Hugo**です。
- 
-## CJKLanguageの認識が正しくなりました。
+
+### CJKLanguageの認識が正しくなりました。
 Hugo v0.15のリリースにより
 今までは、``.Summary``で表示すると正しく表示されませんでした。
 どうしても全文つながってしまいます。
@@ -51,14 +51,14 @@ hasCJKLanguage = true
 
 上記記述を**config**に追加することで日本語を認識したことを確認しました。
 
-## Raw Markdown の追加
+### Raw Markdown の追加
 スライドをMarkdownで記述できる。
 HTMLファイルとMarkdownファイルを分離できるところにある。
 ``.RawContent``で使えるようなのだけれどまだ試していない。
 
 詳細は{{% external_link href="http://gohugo.io/templates/variables/" text="Template Variable" %}}です。
 
-### 【 追 記 】
+#### 【 追 記 】
 (2015.12.04)
 
 Hugoがバージョンアップしてますので自動化されている方は合わせて``wercker.yml``のファイルも変更をしてください。

@@ -9,19 +9,19 @@ title = "zapier で連携してみた"
 +++
 
 今回は先日稼働させた getsitecontrol と slack を連携したいと思います。
-## zapierの始め方
+### zapierの始め方
 {{% external_link href="https://zapier.com" text="zapierのサイト" %}}
 
-### sign up
+#### sign up
 [{{% figure src="https://c6.staticflickr.com/9/8612/28463357133_3ccd6c5d30_b.jpg" alt="zapier home" caption="zapier home画面" %}}](https://www.flickr.com/photos/t-723hamm/28463357133/in/dateposted/)
 [{{% figure src="https://c3.staticflickr.com/9/8142/28794897290_1c9c411a37.jpg" alt="zapier sign up" caption="zapier sign up 画面" %}}](https://www.flickr.com/photos/t-723hamm/28794897290/in/photostream/)
 
-### Login
+#### Login
 [{{% figure src="https://c1.staticflickr.com/9/8392/28794899440_c86a66b910.jpg" alt="zapier Login" caption="zapier Login 画面" %}}](https://www.flickr.com/photos/t-723hamm/28794899440/in/photostream/)
 
 Login し連携できるアプリケーションを選択する
 
-### 連携の方法
+#### 連携の方法
 まずは検索する
 [{{% figure src="https://c4.staticflickr.com/9/8145/28463366243_8260bf37ec.jpg" alt="search" caption="検索する画面" %}}](https://www.flickr.com/photos/t-723hamm/28463366243/in/photostream/)
  + getsitecontrol を探す
@@ -68,12 +68,12 @@ Login し連携できるアプリケーションを選択する
  + slackの設定完了
 [{{% figure src="https://c5.staticflickr.com/9/8611/29048446756_b0219d3706.jpg" alt="Set up slack" caption="slackの設定完了" %}}](https://www.flickr.com/photos/t-723hamm/29048446756/in/photostream/)
 
-### 作成した連携を動作させる
+#### 作成した連携を動作させる
  + 動作状態にするには ON にするだけです。
 [{{% figure src="https://c5.staticflickr.com/9/8721/28976000052_70145060d3.jpg" alt="activate" caption="Zapの動作状態画面" %}}](https://www.flickr.com/photos/t-723hamm/28976000052/in/photostream/)
 
 
-### getsitecontrol の設定
+#### getsitecontrol の設定
  + edit で integrations を選択
 [{{% figure src="https://c6.staticflickr.com/9/8046/29004589141_d27cd976b7.jpg" alt="make a zap" caption="Zapを作成する画面" %}}](https://www.flickr.com/photos/t-723hamm/29004589141/in/photostream/)
  + emailからの通知のチェックを外す

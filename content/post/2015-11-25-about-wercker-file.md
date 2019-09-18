@@ -8,7 +8,7 @@ title = "About Wercker Yaml file"
 
 +++
 
-## こちらで{{% internal_link href="http://blog.nuovotaka.com/2015/11/not-found-wercker/" text="NOT FOUND WERCKER YAML FILE" %}}を書きました。
+### こちらで{{% internal_link href="http://blog.nuovotaka.com/2015/11/not-found-wercker/" text="NOT FOUND WERCKER YAML FILE" %}}を書きました。
 タブスペースについて。(インデントについて)
 
 日本語で言うところの字下げの事。
@@ -38,18 +38,18 @@ build:
 
 また、``Docker``を使っていますが上記の方のコード内で``apt-get update``を走らせているのでスクリプトを追加しなくても大丈夫のようです。
 
-## Docker を利用する、利用しない問題
+### Docker を利用する、利用しない問題
 私の場合は、(2015/11/25時点で)Dockerを利用して``build and deploy``しています。
 少し前の記事だとboxもdockerを使わないものでymlファイルもそれ用に変更して利用しているようですが、うまくワークしませんでした。
 
 そのため、``hugo-build``のコードを書かれた方も``docker``を利用しているようなので``Docker``でアプリケーションを作成するようにしました。
 
-#### 作成時の注意
+###### 作成時の注意
 アプリケーション作成時``Setup your Wercker.yml``の項目では``Docker enabled. See our ...``のチェックを入れて**Next step**を押下します
 
 あとは前回の記事のコードをコピペ（タブスペースに気をつけて！）すればビルドが走ると思います。
 
-## wercker.yml 内の domain と config.toml 内の baseurl について
+### wercker.yml 内の domain と config.toml 内の baseurl について
 [ユーザーアカウント].github.io でホストするリポジトリにAレコードを設定していています。
 そして、別リポジトリでもう一つを``gh-pages``としてホスト下ものへcnameでサブドメインを当てています。
 

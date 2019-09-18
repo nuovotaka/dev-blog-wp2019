@@ -8,7 +8,7 @@ title = "GitHub Gist をVisual Studio Codeで使ってみた"
 
 +++
 
-## GitHub Gistの導入方法について
+### GitHub Gistの導入方法について
 
 hugoでMarkdownのcode内のコードを無視せずそのまま律儀に変換してしまうバグに遭遇したのでGistを使った。
 その過程で**vs code**で**gist**が利用できることがわかり**sublime**ではなく**vs code**に導入することにした。

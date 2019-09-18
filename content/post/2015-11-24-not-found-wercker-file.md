@@ -8,7 +8,7 @@ title = "Not found wercker yaml file"
 
 +++
 
-## Automated deployments with Wercker
+### Automated deployments with Wercker
 
 当初は、Hugoにかかれている通りにしたのだがビルドさえもワークしていないことに気づいた。
 とりあえず、ビルドが通るように``wercker.yml``ファイルを色々と変えてみるもダメ。
@@ -62,7 +62,7 @@ deploy:
 
 後一つきになることがあるのでそれをこの記事のポストで確かめてみます。
 
-### 【 追 記 】
+#### 【 追 記 】
 2015.12.04
 
 + Hugoのバージョンが上がりましたので上記コードを下記のように変更しました。
@@ -77,4 +77,3 @@ version: "0.15"
 ```
 
 本文内のコードはhugoに合わせバージョンを**"0.15"**に変更してあります。
-

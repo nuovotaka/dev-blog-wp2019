@@ -17,7 +17,7 @@ title = "食物アレルギーとトランス脂肪酸"
 
 <!--more-->
 
-### さて、現状国内ではどうなっているのか？
+#### さて、現状国内ではどうなっているのか？
 {{% external_link href="http://www.huffingtonpost.jp/2015/06/16/trans-fat-cracked-down_n_7599622.html?utm_hp_ref=japan" text="トランス脂肪酸食品添加物、３年後以内に全廃" %}}
 {{% external_link href="http://www.maff.go.jp/j/syouan/seisaku/trans_fat/t_kihon/content.html" text="農水省の調査" %}}
 

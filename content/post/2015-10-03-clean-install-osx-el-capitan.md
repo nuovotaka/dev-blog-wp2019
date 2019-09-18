@@ -8,7 +8,7 @@ title = "OS X El Capitan クリーンインストールが１日作業となり�
 
 +++
 
-## Xcode使ってアプリ開発を行う方、開発用に使われる方
+### Xcode使ってアプリ開発を行う方、開発用に使われる方
 
 {{% external_link href="http://brew.sh/index_ja.html" text="Homebrew" %}}はもちろん、OSアプデの前にやるが吉。
 
@@ -23,7 +23,7 @@ Homebrew は rubyのバージョン管理をする rbenv などコマンドラ�
 とにかくダウンロードするデータ量が大きい＆世界中で「今だ！」っと思っている人たちとリソースの取り合いをしなければいけないので、AppleのCDNがもってくれるか(サーバーダウンしないか)どうか？
 それが、問題です。
 
-## クリーンインストールの作業開始！バックアップを取る
+### クリーンインストールの作業開始！バックアップを取る
 
 AirMac Time Capsule などを使ってバックアップをとります。
 デスクトップの整理やらいらないアプリの削除とバックアップに追加しなくてはいけない項目が増えたので最初から行ったため時間を要しました。
@@ -32,7 +32,7 @@ AppStoreより OS X ( El Capitan ) ( 6GBあり2h少々時間がかかりまし�
 
 > {{% external_link href="http://wayohoo.com/mac/tips/how-to-clean-install-os-x-el-capitan.html" text="Mac OS X ( El Capitan ) のクリーンインストール" %}}を参考にさせていただきました。
 
-## 移行アシスタントを使ってバックアップデータの移行作業
+### 移行アシスタントを使ってバックアップデータの移行作業
 
 El Capitan となった新しい OS X へデータの移行を行いますが、appも移行されます。
 ( 宅内有線LANで1h以内でした。MBPR13inch 256GB 1/4 - 1/3 程度の使用量です。
@@ -43,7 +43,7 @@ El Capitan 用のXcodeはバージョンが７にあがっているのでこの�
 {{% external_link href="http://wayohoo.com/mac/beginners/how-to-use-migration-assistant-for-os-x-el-capitan.html" text="Mac OS X ( El Capitan ) にバックアップデータの移行" %}}とりあえず、ここまでの状態で新しい OS にデータが移行され使えるようになります。
 あと一息です。
 
-## アプリのアップデート
+### アプリのアップデート
 
 AppStore にてアップデートするアプリがあった場合は、appのアップデートをしてください。
 Yosemite より前の方は iPhoto.app がアップデートで残ります。
@@ -51,7 +51,7 @@ Yosemite より前の方は iPhoto.app がアップデートで残ります。
 
 **写真.app に移行しない状態での削除はデータが消える可能性があるのでご注意を！！**
 
-## 古いXcodeを削除し、新しいXcodeをダウンロード＆インストールする
+### 古いXcodeを削除し、新しいXcodeをダウンロード＆インストールする
 
 古いXcodeの削除に AppCleaner というアプリを使いました。
 新しいXcodeのダウンロード＆インストールを行います。
@@ -60,7 +60,7 @@ Yosemite より前の方は iPhoto.app がアップデートで残ります。
 
 Xcode コマンドライン ツールを一応インストしました。
 
-## brew doctor を試してみる
+### brew doctor を試してみる
 
 すると
 
@@ -105,11 +105,11 @@ OS X ( El Capitan ) からスタートする場合は、
 {{% external_link href="https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/El_Capitan_and_Homebrew.md" text="回避策を行う必要がある" %}}({{% external_link href="http://www.softantenna.com/wp/mac/os-x-el-capitan-and-homebrew/" text="日本語翻訳版" %}})ようです。
 別ディレクトリを作ってそちらで運用を考えているようですが、本家の解決策を待ちましょう。
 
-#### 最後に
+###### 最後に
 
 今回の作業は全て有線LANにて作業を行いました。
 
-#### 【 追 記 】
+###### 【 追 記 】
 
 実は、事前にこちらのサイトの内容をチェックしていて「ディスクのアクセス権の修復」を行っております。
 

@@ -8,7 +8,7 @@ title = "新しい widget が追加されました"
 
 +++
 
-## 最近投稿されたGistsを検索して来てくれるもの
+### 最近投稿されたGistsを検索して来てくれるもの
 下記参考のテーマ公式の内容のまま(2016-01-13)だとローカルでは表示するのだが、werckerを通して動かすとうまく行かなかった。
 
 なので、ロジックを{{% external_link href="https://gohugo.io/extras/datadrivencontent/" text="Hugo - Data-drivenContent" %}}の通りに変更。
@@ -42,7 +42,7 @@ rangeで５つのみとるようにしているので最近のものが取れる
 
 早速試してみました。
 
-#### 参 考
+###### 参 考
 Hugo用のwordpress twentyfourteenテーマの作者
 
 {{% external_link href="https://github.com/jaden/twentyfourteen" text="jaden - twentyfourteen" %}}

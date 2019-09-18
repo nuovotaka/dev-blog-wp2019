@@ -8,7 +8,7 @@ title = "Github Webhooks Setting"
 
 +++
 
-## WerckerとGithubを使って自動で静的サイトをdeployするときのgithubの設定は？
+### WerckerとGithubを使って自動で静的サイトをdeployするときのgithubの設定は？
 
 各リポジトリの``Settings``に``Webhooks & services``という項目がある
 ここで、``Webhooks``の内容を確認してみると**Which events would you like to trigger this webhook?**と書かれたところにイベントを設定するところがある。

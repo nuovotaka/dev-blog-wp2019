@@ -8,7 +8,7 @@ title = "google analytics"
 
 +++
 
-## Google Analyticsを設置してみた
+### Google Analyticsを設置してみた
 私の使っているテーマ(twentyfourteen)には、google analyticsが設定できるようになっていなかったので設置してみた。
 
 <!--more-->
@@ -32,4 +32,3 @@ googleAnalytics = "UA-123-45"
 これでgoogle analyticsが設定されている場合とされていない場合でそれぞれよしなに対応してくれる。
 
 ```with```を使って行う方法もあるが私は上記を利用するようにした。
-

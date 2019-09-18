@@ -15,7 +15,7 @@ GetSiteControlは私のサイトの様な動的でない静的なサイトに非
 
 これをコードを埋め込んだだけで実現できてしまうのは便利すぎる!!
 
-## GetSiteControlの始め方
+### GetSiteControlの始め方
 
 {{% external_link href="https://getsitecontrol.com/" text="GetSiteControlのサイト" %}}
 
@@ -26,7 +26,7 @@ GetSiteControlは私のサイトの様な動的でない静的なサイトに非
 
 これらを先程のリンクから入力しサインアップしてください。
 
-## インストール方法
+### インストール方法
 インストールと言ってもコードをHTMLのbodyタグの前に設置すれば大丈夫です。
 
 ただし、生の埋め込みコードをそのままboyタグの直前に設置しても動きません。
@@ -44,13 +44,13 @@ goHugoの場合で記述していますので悪しからず。
 
 これで作動するはずです。
 
-### サインアップ後の Widget の設定
+#### サインアップ後の Widget の設定
 
 1. ウィジットを作成する
 [{{% figure src="https://c1.staticflickr.com/9/8644/29024407776_a09f55a43d.jpg" alt="Create widget" caption="Create widget 画面" %}}](https://www.flickr.com/photos/t-723hamm/29024407776/in/dateposted/)
  + プロモーション広告やSNSフォロー、シェアなどの項目が表示されるのでどれかをクリック
 [{{% figure src="https://c4.staticflickr.com/9/8439/28439527883_ff0ec9fd08.jpg" alt="Select widget" caption="widget の選択" %}}](https://www.flickr.com/photos/t-723hamm/28439527883/in/photostream/)
- 
+
 2. プロモーション広告 widget の作り方
  + 先ほどの画面で Promo を選択
  + Widget を表示する位置や色などを変更
@@ -80,7 +80,7 @@ goHugoの場合で記述していますので悪しからず。
  + hugoへのインストールは直接コードを記述しただけではダメなので patials フォルダ以下へファイルを作りその中へ埋め込みコードを入れてください。
  呼び出し方法は先に記述してありますので参考までに。
 [{{% figure src="https://c3.staticflickr.com/9/8296/29024423706_7249a3e2dd.jpg" alt="Install widget" caption="Install widget 画面" %}}](https://www.flickr.com/photos/t-723hamm/29024423706/in/photostream/)
- 
+
 5.各種インテグレーション
 [{{% figure src="https://c5.staticflickr.com/9/8496/29024423516_45ffbae947.jpg" alt="integrations" caption="各種連携 画面" %}}](https://www.flickr.com/photos/t-723hamm/29024423516/in/photostream/)
 
@@ -93,7 +93,7 @@ goHugoの場合で記述していますので悪しからず。
 [{{% figure src="https://c1.staticflickr.com/9/8486/29024423336_13e46a83b1.jpg" alt="sample widget" caption="sample widget 画面" %}}](https://www.flickr.com/photos/t-723hamm/29024423336/in/photostream/)
 
 
-## GetSiteControlの始め方
+### GetSiteControlの始め方
 
 {{% external_link href="https://getsitecontrol.com/" text="GetSiteControlのサイト" %}}
 アフィリエイトではありませんので直接クリックされて大丈夫です。

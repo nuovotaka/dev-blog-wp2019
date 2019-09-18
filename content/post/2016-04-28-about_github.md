@@ -8,14 +8,14 @@ title = "githubで３分クッキング"
 
 +++
 
-## githubでHPサイトを公開してみましょう
+### githubでHPサイトを公開してみましょう
 なんのことを言っているだと思われるかも知れませんね。
 
 ドメインを持っていなくても github を利用するとお手軽にHPを公開することができます。
 
 ご存知の方もいるかもしれませんがキュレーションとして記事をあげさせていただきます。
 
-### ユーザーアカウントを利用しての公開方法
+#### ユーザーアカウントを利用しての公開方法
 
 やはり公式でしょう
 
@@ -34,19 +34,19 @@ goHugoなど静的サイト生成ツールを利用される方は、githubの�
 + {{% external_link href="https://pages.github.com/" text="GitHub Pages" %}}
 ```User and Organization Pages```を選択してください。
 
-#### Githubを利用する場合の注意点
+###### Githubを利用する場合の注意点
 
 **```http://your_account.github.io/```**
 
 githubの場合の公開は"io"ドメインとなりますのでご注意を。
 
-### 独自ドメインを利用しての公開方法
+#### 独自ドメインを利用しての公開方法
 
 ご自身のドメインを取得して公開し運用してみたくなった場合は下記を。
 
 + {{% external_link href="https://qiita.com/mikakane/items/87c8f676815da4e5ac04" text="Github Pagesの使い方" %}}
 
-### 静的サイトのホストについて
+#### 静的サイトのホストについて
 jekyll や最近ではgoHugoなどいろいろとありますが、各種設定をしてください。
 
 参考までに goHugo の場合は、baseurl や cname, domain などの設定を config 及び wercker_yaml
@@ -85,4 +85,3 @@ domain: blog.nuovotaka.com
 やはり公式を追加しました。
 
 順を追って作業していけばできることなので焦らず頑張りましょう。
-

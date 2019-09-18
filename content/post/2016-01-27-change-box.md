@@ -8,7 +8,7 @@ title = "Wercker yaml file の boxを変更してみた"
 
 +++
 
-## deploy 時に install package で失敗する
+### deploy 時に install package で失敗する
 ベースの box を変更するとどうなるか試してみたところ。
 同じ状態で失敗した。
 
@@ -23,7 +23,7 @@ build:
     - arjen/hugo-build:
 ```
 
-### GISTS について
+#### GISTS について
 サイドにgistsを表示してみました。
 
 当然ですが、このサイトは動的なサイトではないので日々の記事をアップした時点で直近５項目
