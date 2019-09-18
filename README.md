@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7fc0e9e5-6534-44e8-add6-7e8d92e61229/deploy-status)](https://app.netlify.com/sites/keen-roentgen-a388da/deploys)
 
-# Twenty Fourteen
+# Twenty Nineteen
 [twentynineteen](http://themes.gohugo.io/twentynineteen-hugo/)
 
 WordPressのTwenty NineteenをHugo用に移植されたものに「自分のテーマ」カラーを設定し利用しました。
@@ -44,7 +44,5 @@ The following directories and their contents are Copyright Dan Hersam.
 
 + themes/
 
-Licensed under the GPL license in Dan Hersam, <http://dan.hersam.com>
-
 All other directories and files are:
-Licensed under the [GPL License v3](LICENSE.md), <http://nuovotaka.com>
+Licensed under the [GPL License](LICENSE.md)
