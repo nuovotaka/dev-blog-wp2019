@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="{{ with .Site.LanguageCode}}{{ . }}{{ else }}en-US{{end}}">
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>{{ if .Title }} {{ .Title }} | {{ end }}{{ $.Site.Title }}</title>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicons/manifest.json">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  {{ $themeScss := "scss/main.scss" }}
+  {{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+  {{ $themeCss := resources.Get $themeScss | resources.ExecuteAsTemplate $themeScss . | toCSS $options | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $themeCss.RelPermalink }}" integrity="{{ $themeCss.Data.Integrity }}" media="screen">
+
+  {{ block "header_scripts" . }}
+  <!-- Optional header scripts -->
+  {{ end }}
+
+  {{ block "header_styles" . }}
+  <!-- Optional header styles -->
+  {{ end }}
+</head>
+
+<body class="{{ if not .Site.Params.disable_image_filters }}image-filters-enabled{{ end }} archive">
+  <div id="page" class="site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+    <header id="masthead" class="site-header {{ if .Params.image }}featured-image{{ end }}">
+      <div class="site-branding-container">
+        {{ partial "header/site-branding" . }}
+      </div><!-- .layout-wrap -->
+
+      {{ block "entry_header" . }}
+        <!-- For single posts and pages, special treatment if there's a featured image -->
+      {{ end }}
+    </header><!-- #masthead -->
+
+    <div id="content" class="site-content">
+      <section id="primary" class="content-area">
+        <main id="main" class="site-main">
+          {{ block "main" . }}{{ end }}
+        </main>
+      </section>
+    </div>
+
+    {{ partial "footer" . }}
+
+  </div>
+
+  {{ block "footer_scripts" . }}
+  <!-- Optional footer scripts. -->
+  {{ end }}
+
+  {{ partial "google-analytics-async.html" . }}
+</body>
+</html>

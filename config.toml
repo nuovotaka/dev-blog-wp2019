@@ -1,0 +1,47 @@
+baseURL = "//blog.nuovotaka.com"
+title = "dev.NUOVOTAKA"
+copyright = "© 2015 dev.NUOVOTAKA"
+author = "nuovotaka"
+languageCode = "ja"
+MetaDataFormat = "toml"
+theme="twentynineteen-hugo"
+paginate = 5 # To specify a multiple of 3
+disqusShortname = "" # optional
+disableKinds = "RSS"
+hasCJKLanguage = "true"
+googleAnalytics = "UA-110068374-1" # optional
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[params]
+  description = "nuovotaka.comの中の人のブログ" # optional
+  accent_color = "#FF5722"
+  twitter = "" # optional
+  github = "" # optional
+  facebook = "" # optional
+  googleplus = "" # optional
+  linkedin = "" # optional
+
+# Menus
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "NUOVOTAKA.COM"
+    url = "https://nuovotaka.com"
+    weight = 3
+  [[menu.social]]
+    identifier = "github"
+    name = "Github"
+    url = "https://github.com/nuovotaka"
+  [[menu.social]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/nuovotaka"
