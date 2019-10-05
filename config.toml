@@ -20,6 +20,7 @@ googleAnalytics = "UA-110068374-1" # optional
 [params]
   description = "nuovotaka.comの中の人のブログ" # optional
   accent_color = "#FF5722"
+  privacy_link = "/privacy/"
   twitter = "" # optional
   github = "" # optional
   facebook = "" # optional
