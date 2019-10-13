@@ -40,9 +40,9 @@ The following directories and their contents are Copyright NUOVOTAKA. You may no
 + static/images/
 + static/favicon.ico
 
-The following directories and their contents are Copyright Dan Hersam.
+The following directories and their contents are Copyright Jeremy Bise
 
 + themes/
 
 All other directories and files are:
-Licensed under the [GPL License](LICENSE.md)
+Licensed under the [GPL License](https://github.com/jeremybise/twentynineteen-hugo/blob/master/LICENSE.md)
