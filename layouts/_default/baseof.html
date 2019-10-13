@@ -1,15 +1,11 @@
 <!doctype html>
 <html lang="{{ with .Site.LanguageCode}}{{ . }}{{ else }}en-US{{end}}">
-<head>
-	<meta charset="utf-8" />
+<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>{{ if .Title }} {{ .Title }} | {{ end }}{{ $.Site.Title }}</title>
 
-  <link rel="icon" href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+  {{ partial "favicon" . }}
 
   {{ $themeScss := "scss/main.scss" }}
   {{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
@@ -18,13 +14,12 @@
 
   {{ block "header_scripts" . }}
   <!-- Optional header scripts -->
-  <script data-ad-client="ca-pub-2390425539078205" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  {{ partial "google-adsense" . }}
   {{ end }}
 
   {{ block "header_styles" . }}
   <!-- Optional header styles -->
   {{ end }}
-</head>
 
 <body class="{{ if not .Site.Params.disable_image_filters }}image-filters-enabled{{ end }} archive">
   <div id="page" class="site">
