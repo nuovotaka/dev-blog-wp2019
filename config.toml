@@ -21,6 +21,7 @@ googleAnalytics = "UA-110068374-1" # optional
   description = "nuovotaka.comの中の人のブログ" # optional
   accent_color = "#FF5722"
   privacy_link = "/privacy/"
+  amazonJpAffiliate = "mydiary08-22"
   twitter = "" # optional
   github = "" # optional
   facebook = "" # optional
