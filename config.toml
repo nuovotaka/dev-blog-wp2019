@@ -50,3 +50,8 @@ googleAnalytics = "UA-110068374-1" # optional
     identifier = "twitter"
     name = "Twitter"
     url = "https://twitter.com/nuovotaka"
+
+    [markup]
+      [markup.goldmark]
+        [markup.goldmark.renderer]
+          unsafe = true
