@@ -4,7 +4,7 @@ slug = "sick-egpa-part19"
 categories = ['sick']
 tags = ['sick', 'egpa']
 date = "2020-03-04T10:00:00+09:00"
-title = "緑内障,眼圧、視力、視野検査"
+title = "プレドニン5mgで維持"
 
 +++
 
