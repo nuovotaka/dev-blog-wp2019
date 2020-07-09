@@ -12,7 +12,7 @@ title = "縫い針入れを作りました"
 
 ### 型紙
 
-J.H.Leather　さんの型紙をアレンジしてCADで制作し使用しました。
+{{% external_link href="https://www.jhleather.co.uk/" text="J.H.Leather" %}}　さんの型紙をアレンジしてCADで制作し使用しました。
 若干狭く制作しました。
 
 <!--more-->
@@ -29,6 +29,6 @@ J.H.Leather　さんの型紙をアレンジしてCADで制作し使用しまし
 
 #### 参考資料
 
-{{% external_link href="https://www.jhleather.co.uk/" text="J.H.Leather" %}}
+{{% external_link href="https://www.jhleather.co.uk/blogs/news/needle-case-tutorial-video-and-free-patterns" text="J.H.Leather さんの型紙" %}}
 
 {{< youtube id="JJjJmqwvqH0" autoplay="false" >}}
