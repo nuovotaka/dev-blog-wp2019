@@ -18,7 +18,7 @@ googleAnalytics = "UA-110068374-1" # optional
   home = ["HTML", "JSON"]
 
 [params]
-  description = "nuovotaka.comの中の人のブログ" # optional
+  description = "nuovotaka.comの管理人のブログ" # optional
   accent_color = "#FF5722"
   privacy_link = "/privacy/"
   amazonJpAffiliate = "mydiary08-22"
