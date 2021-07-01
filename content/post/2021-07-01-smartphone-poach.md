@@ -38,3 +38,7 @@ CADにて型紙を制作して本日(2021/07/01)完成しました。
 ただし、型紙は個人仕様に限って利用してください。商用利用は行わないようにお願いします。
 
 [スマートフォンポーチの型紙ダウンロードリンク](https://drive.google.com/file/d/18s-SQotRKMd1eUXYwM1YWELzRb6Yhd_V/view?usp=sharing)
+
+### Youtube動画
+
+{{< youtube id="NNPctfEu4F8" autoplay="false" >}}
