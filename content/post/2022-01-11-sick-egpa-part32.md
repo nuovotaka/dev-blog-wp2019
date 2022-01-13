@@ -40,3 +40,8 @@ title = "プレドニンは7.5mgでウイルスに感染しているようです
 #### 参考資料
 
 {{% external_link href="http://www.jrs.or.jp/modules/citizen/index.php?content_id=144" text="好酸球性多発血管炎性肉芽種症（EGPA）" %}}
+
+#### 追記
+採血の結果、サイトメガロウイルスは陰性でした。
+っということで、先生より連絡ありバリキサのお薬は休止となりました。
+いったい何が原因なのだろう？？
