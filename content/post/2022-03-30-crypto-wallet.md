@@ -10,7 +10,7 @@ title = "暗号資産を保管するUSBサイズの財布を買ってみまし�
 
 ### 今回購入した財布について
 購入した財布は、暗号資産を保管する財布です。
-フランス製の[「Ledger」の NANO X という製品](https://hardwarewallet-japan.com/)(国内の代理店を利用しました。)を購入しました。
+フランス製の[「Ledger」の Nano X という製品](https://hardwarewallet-japan.com/)(国内の代理店を利用しました。)を購入しました。
 
 <!--more-->
 
