@@ -34,4 +34,4 @@ title = "スマートフォン入れと小さなお財布を作りました"
 
 ### Youtube動画
 
-{{< youtube id="QGxZBdIdGH4" autoplay="false" >}}
+{{< youtube id="oOc0jAHJPuQ" autoplay="false" >}}
