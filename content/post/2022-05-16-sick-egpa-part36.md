@@ -35,8 +35,7 @@ title = "プレドニンは5mg。好酸球が基準を外れ少し高くなっ�
 以上を医師の指示のもと服用及び点眼している。
 
 ### Youtube動画
-動画は明日更新の予定。
-{{< youtube id="" autoplay="false" >}}
+{{< youtube id="T1efIy5rVBI" autoplay="false" >}}
 
 #### 参考資料
 
