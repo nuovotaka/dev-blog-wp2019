@@ -9,7 +9,7 @@ paginate = 5 # To specify a multiple of 3
 disqusShortname = "" # optional
 disableKinds = "RSS"
 hasCJKLanguage = "true"
-googleAnalytics = "UA-110068374-1" # optional
+GoogleAnalytics = "G-C7YVFVXERN" # optional
 
 [permalinks]
   post = "/:year/:month/:slug/"
